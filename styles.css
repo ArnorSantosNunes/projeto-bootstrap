@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background-color: bisque;
+}
+header .container{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blanchedalmond;
+    padding: 16px;
+}
+header .container ul{
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+.carousel {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+section .container{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+section .row{
+    padding-top: 15px;
+}
